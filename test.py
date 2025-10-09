@@ -4,5 +4,6 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 
-num = 5
-print(f"The factorial of {num} is {factorial(num)}")
+if __name__ == "__main__":
+    num = 5
+    print(f"The factorial of {num} is {factorial(num)}")
